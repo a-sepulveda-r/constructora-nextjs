@@ -21,7 +21,7 @@ const Login = () => {
       contrasena,
     };
 
-    const baseUrl = "http://localhost:3000";
+    const baseUrl = "https://earthy-north-theory.glitch.me/";
     const url = baseUrl + "/login";
     const fetchConfig = {
       method: "POST",

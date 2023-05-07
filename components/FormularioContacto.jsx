@@ -32,7 +32,7 @@ const FormularioContacto = ({ formularios, setFormularios }) => {
         asunto,
       };
 
-      const baseUrl = "http://localhost:3000";
+      const baseUrl = "https://earthy-north-theory.glitch.me/";
       const url = baseUrl + "/formulario";
 
       const respuesta = await fetch(url, {

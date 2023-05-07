@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 export default function FormularioListado({ formularios, setFormularios }) {
   const cargarDatos = async () => {
     try {
-      const baseUrl = "http://localhost:3000";
+      const baseUrl = "https://earthy-north-theory.glitch.me/";
       const url = baseUrl + "/formulario";
       const respuesta = await fetch(url);
 
@@ -24,7 +24,7 @@ export default function FormularioListado({ formularios, setFormularios }) {
   const eliminar = async (formulario) => {
     try {
       //const baseUrl   = Configuracion.getBaseUrl();
-      const baseUrl = "http://localhost:3000";
+      const baseUrl = "https://earthy-north-theory.glitch.me/";
       const url = baseUrl + "/formulario?id=" + formulario.id;
       //const url       = baseUrl + '/formulario/'+formulario.id;
 

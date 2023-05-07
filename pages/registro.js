@@ -18,7 +18,7 @@ const Registro = () => {
       email,
       contrasena,
     };
-    const baseUrl = "http://localhost:3000";
+    const baseUrl = "https://earthy-north-theory.glitch.me/";
     const url = baseUrl + "/registro";
     const fetchConfig = {
       method: "POST",

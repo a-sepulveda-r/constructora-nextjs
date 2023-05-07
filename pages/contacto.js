@@ -17,7 +17,7 @@ const Contacto = () => {
       const objetoUsuario = JSON.parse(storageUsuario);
       const token = objetoUsuario.user.stsTokenManager.accessToken;
 
-      const baseUrl = "http://localhost:3000";
+      const baseUrl = "https://earthy-north-theory.glitch.me/";
       const url = baseUrl + "/usuario/checktoken";
       fetch(url, {
         method: "GET",

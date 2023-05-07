@@ -7,3 +7,9 @@
 ## colores
 
 ## -FEFAE0
+
+# usuario de prueba para crear solicitudes
+
+# email: usuariodeprueba1@gmail.com
+
+# password: 1234567
